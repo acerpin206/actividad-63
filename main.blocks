@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="DCv0e4if*S$[+;.}@ev(">b</variable></variables><block type="pxt-on-start" id="CuRj_z/@_[q.o{[!E(L`" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="I$cvor8]EQz}B29_-p1k"><field name="VAR" id="DCv0e4if*S$[+;.}@ev(">b</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="EwE8a8lcw]0([no=c`X3"><field name="OP">MINUS</field><value name="A"><shadow type="math_number" id="i7JtDBl[bsYSW/u0`w/X"><field name="NUM">225</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="rq+0,bA}.*^e5UpAy+{:"></block></value></block></value><next><block type="device_set_brightness" id=".$/{*mpi.jV|OtoW(Ji["><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow><block type="variables_get" id="{-GF_)EVns-IFbhxN_o8"><field name="VAR" id="DCv0e4if*S$[+;.}@ev(">b</field></block></value><next><block type="device_show_leds" id="wf8Fhhya=e!HWrU{YTmf"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="gz*C%iQ~.{0ItRs9t[TT" x="396" y="-7"></block></xml>
